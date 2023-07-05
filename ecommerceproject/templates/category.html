@@ -38,7 +38,7 @@
 </div>
      {% else %}
 <div>
-    <img class="my_image my_image_padding" src="{% static 'img/banner.png' %}" alt="Our Products" width="1350px;" height="500px;">
+    <img class="my_image my_image_padding" src="{% static 'img/banner.png' %}" alt="Our Products" width="1550px;" height="400px;">
 </div>
 <br>
 <div>
@@ -49,7 +49,7 @@
 <div class="container">
     <div class="row mx_auto">
         {% for product in products.object_list %}
-        <div class="my_bottom_margin col-9 col-sm-12 col-md-4 xol-lg-6">
+        <div class="my_bottom_margin col-9 col-sm-12 col-md-6 col-lg-6">
             <div class="card text-center" style="min-width:18rem;">
                 <a href="{{product.get_url}}"><img class="card-img-top my_image" src="{{product.image.url}}" alt="{{product.name}}"></a>
                 <div class="card-body">
