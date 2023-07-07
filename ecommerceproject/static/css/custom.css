@@ -61,7 +61,7 @@ body{
 
 .card{
    margin-bottom:2px;
-
+   min-height: 200px;
 }
 /***product page***/
 
