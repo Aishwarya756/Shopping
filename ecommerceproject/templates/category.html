@@ -51,7 +51,7 @@
         {% for product in products.object_list %}
         <div class="col-lg-4 d-flex align-items-stretch">
         <div class="my_bottom_margin col-9 col-sm-12 col-md-8 col-md-6 col-lg-4">
-            <div class="card text-center" style="min-width:20rem;">
+            <div class="card text-center" style="min-width:20rem; height:400px;">
                 <a href="{{product.get_url}}"><img class="card-img-top my_image" src="{{product.image.url}}" alt="{{product.name}}"></a>
                 <div class="card-body">
                     <h4>{{product.name}}</h4>
