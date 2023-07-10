@@ -18,9 +18,10 @@ body{
 .my_footer {
       background-color:#f8f9fa;
       height:30px;
-      position:fixed;
       width:100%;
-      bottom: 0;
+      bottom:0;
+      position:absolute;
+
 }
 .my_footer p {
        padding-top:10px;
